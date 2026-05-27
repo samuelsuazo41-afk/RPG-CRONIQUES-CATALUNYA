@@ -407,12 +407,14 @@ function carregarPas() {
     document.getElementById('npc-nom').textContent = npcNom;
 
     // Dialogo con 2 botones de altavoz: ca y es
+    const textoCA = pas.dialog || '';
+    const textoES = pas.dialog_es || pas.dialog;
     document.getElementById('npc-dialog').innerHTML = `
-      ${pas.dialog || ''}
-      <button onclick="parlarNPC(\`${(pas.dialog || '').replace(/`/g, '\\`')}\`, 'ca')"
+      ${textoCA}
+      <button onclick="parlarNPC(\`${textoCA.replace(/`/g, '\\`')}\`, 'ca')"
         style="background:none; border:none; font-size:20px; margin-left:8px; cursor:pointer; opacity:0.7;"
         title="Escoltar en català">🔊</button>
-      <button onclick="parlarNPC(\`${(pas.dialog || '').replace(/`/g, '\\`')}\`, 'es')"
+      <button onclick="parlarNPC(\`${textoES.replace(/`/g, '\\`')}\`, 'es')"
         style="background:none; border:none; font-size:20px; margin-left:4px; cursor:pointer; opacity:0.7;"
         title="Escuchar en español">🗣️</button>
     `;
@@ -638,7 +640,7 @@ function mostrarGremi(tab, e) {
       fetch('./data/llegendes_girona.json').then(r => r.json()).catch(()=>[]),
       fetch('./data/llegendes_valencia.json').then(r => r.json()).catch(()=>[])
     ])
-  .then(([barcelona, girona, valencia]) => {
+ .then(([barcelona, girona, valencia]) => {
       const totes = [...barcelona,...girona,...valencia];
       cont.innerHTML = '';
       if(totes.length === 0) {
@@ -671,7 +673,7 @@ function mostrarGremi(tab, e) {
         }
       });
     })
-  .catch(err => console.error('Error carregant llegendes:', err));
+ .catch(err => console.error('Error carregant llegendes:', err));
   }
 }
 
