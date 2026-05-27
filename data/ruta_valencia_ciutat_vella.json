@@ -4,6 +4,7 @@
     "npc_nom": "Vicent",
     "npc_emoji": "🛡️",
     "dialog": "VICENT, guàrdia nocturn: 'Això són les Torres de Serrans, del segle XIV. Eren la porta per on entrava la seda que feia rica València. Com dius bona nit en valencià?'",
+    "dialog_es": "VICENT, guardia nocturno: 'Estas son las Torres de Serrans, del siglo XIV. Eran la puerta por donde entraba la seda que hacía rica Valencia. ¿Cómo dices bona nit en valenciano?'",
     "pregunta": "Què li dius al guàrdia?",
     "opcions": [
       { "text": "Bona nit, senyor. Gràcies per cuidar la ciutat", "correcte": true, "feedback": "VICENT: 'Així es parla. Passa'.", "guany": { "monedes": 60, "arrel": 4 } },
@@ -16,6 +17,7 @@
     "npc_nom": "Meritxell",
     "npc_emoji": "🔔",
     "dialog": "MERITXELL, campanera: 'Sóc la que cuida el Micalet. 207 escalons. Si dius el nom correcte, et conte una llegenda'.",
+    "dialog_es": "MERITXELL, campanera: 'Soy la que cuida el Micalet. 207 escalones. Si dices el nombre correcto, te cuento una leyenda'.",
     "pregunta": "Com es diu la torre?",
     "opcions": [
       { "text": "Micalet", "correcte": true, "feedback": "MERITXELL: 'Diuen que si puges a mitjanit, sents les ànimes de València'.", "guany": { "monedes": 70, "arrel": 5 } },
@@ -28,6 +30,7 @@
     "npc_nom": "Jordi",
     "npc_emoji": "⚖️",
     "dialog": "JORDI, síndic: 'Cada dijous a les 12h fem justícia oral en valencià des de fa 1000 anys. Som el tribunal més antic d'Europa. Com dius aigua?'",
+    "dialog_es": "JORDI, síndico: 'Cada jueves a las 12h hacemos justicia oral en valenciano desde hace 1000 años. Somos el tribunal más antiguo de Europa. ¿Cómo dices aigua?'",
     "pregunta": "Respon-li",
     "opcions": [
       { "text": "Aigua", "correcte": true, "feedback": "JORDI: 'Correcte! 1000 anys sense parar'.", "guany": { "monedes": 80, "seny": 5 } },
@@ -40,6 +43,7 @@
     "npc_nom": "Sor Consol",
     "npc_emoji": "🙏",
     "dialog": "SOR CONSOL: 'Aquesta és la Geperudeta, patrona de València. Sap per què li diem així?'",
+    "dialog_es": "SOR CONSOL: 'Esta es la Geperudeta, patrona de Valencia. ¿Sabe por qué le decimos así?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Perquè té l'esquena corbada, com una mare que acull", "correcte": true, "feedback": "SOR CONSOL: 'Exacte. És la mare que acull tots'.", "guany": { "monedes": 90, "arrel": 6 } },
@@ -52,6 +56,7 @@
     "npc_nom": "Isabel",
     "npc_emoji": "🏛️",
     "dialog": "ISABEL, guia: 'Açò és gòtic valencià del segle XV. UNESCO. Ací es feia la seda que vestia reis. Com descrius l'estil?'",
+    "dialog_es": "ISABEL, guía: 'Esto es gótico valenciano del siglo XV. UNESCO. Aquí se hacía la seda que vestía reyes. ¿Cómo describes el estilo?'",
     "pregunta": "Com ho dius?",
     "opcions": [
       { "text": "Gòtic valencià, Patrimoni de la Humanitat", "correcte": true, "feedback": "ISABEL: 'Exacte! València va ser rica gràcies a la seda'.", "guany": { "monedes": 90, "seny": 6 } },
@@ -64,6 +69,7 @@
     "npc_nom": "Pep",
     "npc_emoji": "🥕",
     "dialog": "PEP, llaurador: 'Tot ve de l'horta de València. 1200 anys regant amb séquies àrabs. Com dius tomaca?'",
+    "dialog_es": "PEP, labrador: 'Todo viene de la huerta de Valencia. 1200 años regando con acequias árabes. ¿Cómo dices tomaca?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Tomaca, de l'horta nostra", "correcte": true, "feedback": "PEP: 'La millor tomaca del món'.", "guany": { "monedes": 70, "arrel": 4 } },
@@ -76,6 +82,7 @@
     "npc_nom": "Raül",
     "npc_emoji": "🎨",
     "dialog": "RAÜL, artista urbà: 'El Carme és el barri bohemi. Cada carrer té un mural. Digue'm una frase en valencià amb ganes'.",
+    "dialog_es": "RAÜL, artista urbano: 'El Carme es el barrio bohemio. Cada calle tiene un mural. Dime una frase en valenciano con ganas'.",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "València pinta en valencià!", "correcte": true, "feedback": "RAÜL: 'Això té força! Pren el mural'.", "guany": { "monedes": 100, "rauxa": 6 } },
@@ -88,6 +95,7 @@
     "npc_nom": "Nazira",
     "npc_emoji": "🕌",
     "dialog": "NAZIRA, historiadora àrab: 'Aquest portal era l'entrada al barri moro. València va ser musulmana 500 anys. Com dius gràcies en àrab valencià antic?'",
+    "dialog_es": "NAZIRA, historiadora árabe: 'Este portal era la entrada al barrio moro. Valencia fue musulmana 500 años. ¿Cómo dices gràcies en árabe valenciano antiguo?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Shukran", "correcte": true, "feedback": "NAZIRA: 'Molt bé! 500 anys d'història viuen ací'.", "guany": { "monedes": 110, "arrel": 7 } },
@@ -100,6 +108,7 @@
     "npc_nom": "Toni",
     "npc_emoji": "🎶",
     "dialog": "TONI, músic: 'La dolçaina és l'ànima de València. Si dius el nom bé, et toque una albaes'.",
+    "dialog_es": "TONI, músico: 'La dolçaina es el alma de Valencia. Si dices el nombre bien, te toco una albaes'.",
     "pregunta": "Com es diu l'instrument?",
     "opcions": [
       { "text": "Dolçaina", "correcte": true, "feedback": "TONI: 'Escolta l'ànima de València'.", "guany": { "monedes": 120, "rauxa": 7 } },
@@ -112,6 +121,7 @@
     "npc_nom": "Paqui",
     "npc_emoji": "👵",
     "dialog": "PAQUI, veïna: 'De dia açò és un caos per les falles. De nit és màgic. Com dius València en falles amb orgull?'",
+    "dialog_es": "PAQUI, vecina: 'De día esto es un caos por las fallas. De noche es mágico. ¿Cómo dices València en falles con orgullo?'",
     "pregunta": "Com se sent?",
     "opcions": [
       { "text": "València en falles és màgica i única", "correcte": true, "feedback": "PAQUI: 'Així es diu! Amb orgull valencià'.", "guany": { "monedes": 130, "arrel": 8 } },
@@ -124,6 +134,7 @@
     "npc_nom": "Lucia",
     "npc_emoji": "📜",
     "dialog": "LUCIA, historiadora: 'Aquest carrer era la via noble. Ací vivien els senyors. Com dius cavaller en valencià?'",
+    "dialog_es": "LUCIA, historiadora: 'Esta calle era la vía noble. Aquí vivían los señores. ¿Cómo dices cavaller en valenciano?'",
     "pregunta": "Respon bé",
     "opcions": [
       { "text": "Cavaller", "correcte": true, "feedback": "LUCIA: 'Correcte! Aquest carrer guarda històries'.", "guany": { "monedes": 70, "seny": 4 } },
@@ -136,6 +147,7 @@
     "npc_nom": "Fermin",
     "npc_emoji": "🥤",
     "dialog": "FERMIN, orxater: 'Sense orxata no hi ha València. És de xufla d'Alboraya. Com demanes una orxata gran?'",
+    "dialog_es": "FERMIN, horchatero: 'Sin horchata no hay Valencia. Es de chufa de Alboraya. ¿Cómo pides una orxata gran?'",
     "pregunta": "Què li demanes?",
     "opcions": [
       { "text": "Una orxata gran ben fresca, si us plau", "correcte": true, "feedback": "FERMIN: 'Ara sí! L'original d'Alboraya'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -148,6 +160,7 @@
     "npc_nom": "Elena",
     "npc_emoji": "📚",
     "dialog": "ELENA, llibretera: 'Ací hi ha les llibreries més velles de València. La pau es fa llegint. Com dius llibre?'",
+    "dialog_es": "ELENA, librera: 'Aquí están las librerías más viejas de Valencia. La pau se hace leyendo. ¿Cómo dices llibre?'",
     "pregunta": "Respon-li",
     "opcions": [
       { "text": "Llibre", "correcte": true, "feedback": "ELENA: 'Exacte! La pau es fa llegint'.", "guany": { "monedes": 90, "seny": 6 } },
@@ -160,6 +173,7 @@
     "npc_nom": "Roger",
     "npc_emoji": "📸",
     "dialog": "ROGER, fotògraf: 'Des d'ací es veu tota la Ciutat Vella il·luminada. Com dius nit màgica en valencià?'",
+    "dialog_es": "ROGER, fotógrafo: 'Desde aquí se ve toda la Ciutat Vella iluminada. ¿Cómo dices nit màgica en valenciano?'",
     "pregunta": "Diga-li la frase",
     "opcions": [
       { "text": "Nit màgica a València", "correcte": true, "feedback": "ROGER: 'Perfecte! Això és València de nit'.", "guany": { "monedes": 100, "obert": 6 } },
@@ -172,6 +186,7 @@
     "npc_nom": "Pepica",
     "npc_emoji": "🎣",
     "dialog": "PEPICA, filla de pescadors: 'Ací vivíem del mar. Les cases de colors són història viva. On menges peix fresc?'",
+    "dialog_es": "PEPICA, hija de pescadores: 'Aquí vivíamos del mar. Las casas de colores son historia viva. ¿Dónde comes pescado fresco?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "A La Pepica, peix del dia amb vistes al mar", "correcte": true, "feedback": "PEPICA: '120 anys de tradició marinera'.", "guany": { "monedes": 90, "arrel": 5 } },
@@ -184,6 +199,7 @@
     "npc_nom": "Socorrista",
     "npc_emoji": "🏖️",
     "dialog": "SOCORRISTA: 'Aquesta platja és famosa per la paella. Ull: la paella valenciana és de pollastre i conill, no de marisc. Com demanes una paella?'",
+    "dialog_es": "SOCORRISTA: 'Esta playa es famosa por la paella. Ojo: la paella valenciana es de pollo y conejo, no de marisco. ¿Cómo pides una paella?'",
     "pregunta": "Com ho dius?",
     "opcions": [
       { "text": "Una paella valenciana per a dos, amb foc de llenya", "correcte": true, "feedback": "SOCORRISTA: '25 minuts i a gaudir'.", "guany": { "monedes": 100, "arrel": 6 } },
@@ -196,6 +212,7 @@
     "npc_nom": "Arquitecta",
     "npc_emoji": "🏛️",
     "dialog": "ARQUITECTA: 'Açò és Calatrava. Futurista, polèmic, però únic. Hemisfèric, Museu de les Ciències, Palau de les Arts. Com ho comentes?'",
+    "dialog_es": "ARQUITECTA: 'Esto es Calatrava. Futurista, polémico, pero único. Hemisfèric, Museu de les Ciències, Palau de les Arts. ¿Cómo lo comentas?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Sembla d'una pel·lícula de ciència ficció. És brutal", "correcte": true, "feedback": "ARQUITECTA: 'València barreja modern i històric'.", "guany": { "monedes": 110, "obert": 6 } },
@@ -208,6 +225,7 @@
     "npc_nom": "Murciélago",
     "npc_emoji": "🦇",
     "dialog": "MURCIÉLAGO, aficionat: 'Açò és Mestalla, 100 anys d'història. Com dius força València en valencià?'",
+    "dialog_es": "MURCIÉLAGO, aficionado: 'Esto es Mestalla, 100 años de historia. ¿Cómo dices força València en valenciano?'",
     "pregunta": "Què li cantes?",
     "opcions": [
       { "text": "Força València! Amunt!", "correcte": true, "feedback": "MURCIÉLAGO: 'Amunt València sempre'.", "guany": { "monedes": 120, "rauxa": 7 } },
@@ -220,6 +238,7 @@
     "npc_nom": "Vega",
     "npc_emoji": "👗",
     "dialog": "VEGA, dissenyadora: 'Russafa és el barri hipster. Ací neixen Pikolinos i Pons Quintana. On compres sabates valencianes?'",
+    "dialog_es": "VEGA, diseñadora: 'Russafa es el barrio hipster. Aquí nacen Pikolinos y Pons Quintana. ¿Dónde compras zapatos valencianos?'",
     "pregunta": "Què li preguntes?",
     "opcions": [
       { "text": "On hi ha una botiga de sabates fetes a València?", "correcte": true, "feedback": "VEGA: 'Ves a Russafa. Moda valenciana de veritat'.", "guany": { "monedes": 90, "obert": 5 } },
@@ -232,6 +251,7 @@
     "npc_nom": "Barquer",
     "npc_emoji": "🚣",
     "dialog": "BARQUER: 'L'Albufera és on naix l'arròs de la paella. 200 espècies d'ocells. El millor capvespre d'Espanya. Vols fer una volta?'",
+    "dialog_es": "BARQUER: 'La Albufera es donde nace el arroz de la paella. 200 especies de aves. El mejor atardecer de España. ¿Quieres dar una vuelta?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Sí! Quant costa i quant dura?", "correcte": true, "feedback": "BARQUER: '15 euros, 45 minuts. El millor atardecer'.", "guany": { "monedes": 130, "arrel": 7 } },
@@ -244,6 +264,7 @@
     "npc_nom": "Director",
     "npc_emoji": "🎬",
     "dialog": "DIRECTOR: 'Ací es roda cinema valencià. Sabies que tenim un festival de cinema mediterrani? Quina pel·lícula preguntes?'",
+    "dialog_es": "DIRECTOR: 'Aquí se rueda cine valenciano. ¿Sabías que tenemos un festival de cine mediterráneo? ¿Qué película preguntas?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Quina pel·lícula valenciana fan aquesta setmana?", "correcte": true, "feedback": "DIRECTOR: 'Ara fan Berlanga. Clàssic valencià'.", "guany": { "monedes": 100, "obert": 6 } },
@@ -256,6 +277,7 @@
     "npc_nom": "Venedora",
     "npc_emoji": "👩",
     "dialog": "VENEDORA: 'Aquesta plaça és rodona des del segle XIX. Venem artesania de Manises. Com compres un ventall?'",
+    "dialog_es": "VENEDORA: 'Esta plaza es redonda desde el siglo XIX. Vendemos artesanía de Manises. ¿Cómo compras un ventall?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Em poses un ventall fet a mà a Manises, si us plau", "correcte": true, "feedback": "VENEDORA: '8 euros. Artesania 100% valenciana'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -268,6 +290,7 @@
     "npc_nom": "Corredor",
     "npc_emoji": "🏃",
     "dialog": "CORREDOR: 'Aquest jardí era el riu Túria. Després de la riuada del 57 el van desviar. Ara són 9 km de verd. Com dius parc en valencià?'",
+    "dialog_es": "CORREDOR: 'Este jardín era el río Túria. Después de la riada del 57 lo desviaron. Ahora son 9 km de verde. ¿Cómo dices parc en valenciano?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Parc del Túria", "correcte": true, "feedback": "CORREDOR: 'Exacte! El pulmó verd de València'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -280,6 +303,7 @@
     "npc_nom": "Llaurador",
     "npc_emoji": "🌾",
     "dialog": "LLAURADOR: 'Ací encara queda horta. Benimaclet era un poble d'horta. Sabies que la paella naix ací?'",
+    "dialog_es": "LLAURADOR: 'Aquí aún queda huerta. Benimaclet era un pueblo de huerta. ¿Sabías que la paella nace aquí?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Sí, l'arròs de l'horta fa la paella autèntica", "correcte": true, "feedback": "LLAURADOR: 'Exacte! Sense horta no hi ha paella'.", "guany": { "monedes": 100, "arrel": 6 } },
@@ -292,6 +316,7 @@
     "npc_nom": "Peixatera",
     "npc_emoji": "🐟",
     "dialog": "PEIXATERA: 'Ací venem peix de la nostra costa. Sabies que l'all i pebre naix a la Albufera?'",
+    "dialog_es": "PEIXATERA: 'Aquí vendemos pescado de nuestra costa. ¿Sabías que l'all i pebre nace en la Albufera?'",
     "pregunta": "Què li preguntes?",
     "opcions": [
       { "text": "Què és l'all i pebre? És típic de València?", "correcte": true, "feedback": "PEIXATERA: 'Guisat d'anguila. Platat valencià'.", "guany": { "monedes": 90, "arrel": 5 } },
@@ -304,6 +329,7 @@
     "npc_nom": "Músic",
     "npc_emoji": "🎻",
     "dialog": "MÚSIC: 'Ací sona l'Orquestra de València. Sabies que la dolçaina i el tabal són Patrimoni Immaterial?'",
+    "dialog_es": "MÚSICO: 'Aquí suena la Orquestra de València. ¿Sabías que la dolçaina i el tabal són Patrimoni Immaterial?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Sí, la música valenciana és única al món", "correcte": true, "feedback": "MÚSIC: 'Exacte! Som terra de músics'.", "guany": { "monedes": 100, "rauxa": 6 } },
@@ -316,9 +342,10 @@
     "npc_nom": "Xef",
     "npc_emoji": "👨‍🍳",
     "dialog": "XEF: 'Ací fem esgarraet, clotxa i fartons. Quin plat vols provar? Tot és valencià'.",
-    "pregunta": "Què li demanes?",
+    "dialog_es": "XEF: 'Aquí hacemos esgarraet, clotxa i fartons. ¿Qué plato quieres probar? Todo es valenciano'.",
+"pregunta": "Quin plat vols provar? Tot és valencià.",
     "opcions": [
-      { "text": "Un esgarraet per començar, si us plau", "correcte": true, "feedback": "XEF: 'Bon gust! Pebrot, bacallà i oli'.", "guany": { "monedes": 90, "arrel": 5 } },
+      { "text": "Un esgarraet per començar", "correcte": true, "feedback": "XEF: 'Bon gust! Pebrot, bacallà i oli'.", "guany": { "monedes": 90, "arrel": 5 } },
       { "text": "Què és això?", "correcte": false, "feedback": "XEF: 'Pebrot rostit amb bacallà. Prova-ho'.", "guany": { "monedes": 10 } },
       { "text": "No tinc gana", "correcte": false, "feedback": "XEF: 'La gana ve menjant'.", "guany": { "monedes": 5 } }
     ]
@@ -328,6 +355,7 @@
     "npc_nom": "Estibador",
     "npc_emoji": "⚓",
     "dialog": "ESTIBADOR: 'Aquest port mou milions de tones. València és porta d'Europa al Mediterrani. Sabies que som el primer port d'Espanya?'",
+    "dialog_es": "ESTIBADOR: 'Este puerto mueve millones de toneladas. Valencia es puerta de Europa al Mediterráneo. ¿Sabías que somos el primer puerto de España?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Sí, València és comerç i mar des de fa segles", "correcte": true, "feedback": "ESTIBADOR: 'Exacte! Des de la seda fins ara'.", "guany": { "monedes": 110, "seny": 7 } },
@@ -340,6 +368,7 @@
     "npc_nom": "Fallera",
     "npc_emoji": "🔥",
     "dialog": "FALLERA: 'Ací fem la falla del barri. Sabies que les falles són Patrimoni Immaterial de la Humanitat?'",
+    "dialog_es": "FALLERA: 'Aquí hacemos la falla del barrio. ¿Sabías que las fallas son Patrimonio Inmaterial de la Humanidad?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Sí, la creativitat valenciana crema al març", "correcte": true, "feedback": "FALLERA: 'Així es parla! València crema i renaix'.", "guany": { "monedes": 120, "rauxa": 8 } },
@@ -352,6 +381,7 @@
     "npc_nom": "Astrònom",
     "npc_emoji": "🔭",
     "dialog": "ASTRÒNOM: 'Des d'ací mirem les estrelles. Sabies que València té un dels cels més nets d'Espanya?'",
+    "dialog_es": "ASTRÒNOMO: 'Desde aquí miramos las estrellas. ¿Sabías que Valencia tiene uno de los cielos más limpios de España?'",
     "pregunta": "Què li preguntes?",
     "opcions": [
       { "text": "Què puc veure esta nit al cel valencià?", "correcte": true, "feedback": "ASTRÒNOM: 'Júpiter i Saturn. Magnífics'.", "guany": { "monedes": 100, "obert": 6 } },
@@ -364,6 +394,7 @@
     "npc_nom": "Tota la Colla Valenciana",
     "npc_emoji": "🎉",
     "dialog": "TOTS: 'Has caminat la Ciutat Vella parlant valencià. Has après de falles, seda, horchata, paella, Albufera, Mestalla i Calatrava. Això és estimar València'.",
+    "dialog_es": "TOTS: 'Has caminado la Ciutat Vella hablando valenciano. Has aprendido de fallas, seda, horchata, paella, Albufera, Mestalla y Calatrava. Esto es amar Valencia'.",
     "pregunta": "Com tanques la nit?",
     "opcions": [
       {
@@ -388,6 +419,3 @@
     ]
   }
 ]
-    
-
-
