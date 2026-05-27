@@ -238,6 +238,15 @@ async function carregarDades() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
+  // Forçar intro només en cold start - no surt si només minimizes
+  const jaVistaEnAquestaSessio = sessionStorage.getItem('introVista');
+  if (!jaVistaEnAquestaSessio) {
+    sessionStorage.setItem('introVista', 'true');
+    setTimeout(() => {
+      canviarTab('missio', null);
+    }, 0);
+  }
+
   aplicarIdioma();
   document.body.addEventListener('click', () => {
     if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
@@ -640,7 +649,7 @@ function mostrarGremi(tab, e) {
       fetch('./data/llegendes_girona.json').then(r => r.json()).catch(()=>[]),
       fetch('./data/llegendes_valencia.json').then(r => r.json()).catch(()=>[])
     ])
- .then(([barcelona, girona, valencia]) => {
+.then(([barcelona, girona, valencia]) => {
       const totes = [...barcelona,...girona,...valencia];
       cont.innerHTML = '';
       if(totes.length === 0) {
@@ -673,7 +682,7 @@ function mostrarGremi(tab, e) {
         }
       });
     })
- .catch(err => console.error('Error carregant llegendes:', err));
+.catch(err => console.error('Error carregant llegendes:', err));
   }
 }
 
