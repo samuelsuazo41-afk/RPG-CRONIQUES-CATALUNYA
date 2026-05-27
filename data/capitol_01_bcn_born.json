@@ -4,6 +4,7 @@
     "npc_nom": "Nuria",
     "npc_emoji": "👩‍🦳",
     "dialog": "Bon dia! Què voldràs avui?",
+    "dialog_es": "¡Buenos días! ¿Qué querrás hoy?",
     "pregunta": "Com demanes un pa amb tomàquet?",
     "opcions": [
       {
@@ -31,6 +32,7 @@
     "npc_nom": "Aina",
     "npc_emoji": "👩‍🦳",
     "dialog": "Són 2,50€. Vols bossa?",
+    "dialog_es": "Son 2,50€. ¿Quieres bolsa?",
     "pregunta": "Com dius que sí a la bossa?",
     "opcions": [
       {
@@ -58,6 +60,7 @@
     "npc_nom": "Aina",
     "npc_emoji": "👩‍🦳",
     "dialog": "Que vagi de gust!",
+    "dialog_es": "¡Que aproveche!",
     "pregunta": "Com respons per acomiadar-te?",
     "opcions": [
       {
@@ -79,6 +82,7 @@
     "npc_nom": "Pau",
     "npc_emoji": "👨‍🦱",
     "dialog": "També tenim croissants acabats de fer",
+    "dialog_es": "También tenemos croissants recién hechos",
     "pregunta": "Com demanes un croissant?",
     "opcions": [
       {
@@ -100,6 +104,7 @@
     "npc_nom": "Pau",
     "npc_emoji": "👨‍🦱",
     "dialog": "Aquí tens el canvi. 50 cèntims",
+    "dialog_es": "Aquí tienes el cambio. 50 céntimos",
     "pregunta": "Com agraeixes el canvi?",
     "opcions": [
       {
@@ -121,6 +126,7 @@
     "npc_nom": "Jordi",
     "npc_emoji": "🧑‍🌾",
     "dialog": "Aquestes cireres són de Lleida, fresques de demà!",
+    "dialog_es": "¡Estas cerezas son de Lleida, frescas de mañana!",
     "pregunta": "Com preguntes el preu?",
     "opcions": [
       {
@@ -142,6 +148,7 @@
     "npc_nom": "Jordi",
     "npc_emoji": "🧑‍🌾",
     "dialog": "3€ el quilo, vols provar una?",
+    "dialog_es": "3€ el kilo, ¿quieres probar una?",
     "pregunta": "Com demanes provar la cirera?",
     "opcions": [
       {
@@ -163,6 +170,7 @@
     "npc_nom": "Jordi",
     "npc_emoji": "🧑‍🌾",
     "dialog": "Fins demà, maco!",
+    "dialog_es": "¡Hasta mañana, guapo!",
     "pregunta": "Com respons?",
     "opcions": [
       {
@@ -184,6 +192,7 @@
     "npc_nom": "Marta",
     "npc_emoji": "👩",
     "dialog": "Tinc tomàquets de l'hort, molt bons per pa amb tomàquet",
+    "dialog_es": "Tengo tomates de la huerta, muy buenos para pan con tomate",
     "pregunta": "Com demanes mig quilo?",
     "opcions": [
       {
@@ -205,6 +214,7 @@
     "npc_nom": "Marta",
     "npc_emoji": "👩",
     "dialog": "Vols que te'ls posi en bossa?",
+    "dialog_es": "¿Quieres que te los ponga en bolsa?",
     "pregunta": "Com respons?",
     "opcions": [
       {
@@ -226,6 +236,7 @@
     "npc_nom": "Laia",
     "npc_emoji": "👩‍🦰",
     "dialog": "Et perds? Busques alguna cosa?",
+    "dialog_es": "¿Te pierdes? ¿Buscas algo?",
     "pregunta": "Com demanes indicacions per anar al carrer Princesa?",
     "opcions": [
       {
@@ -247,6 +258,7 @@
     "npc_nom": "Laia",
     "npc_emoji": "👩‍🦰",
     "dialog": "Sí, és per allà. Vols que t'ho marqui al mapa?",
+    "dialog_es": "Sí, es por allí. ¿Quieres que te lo marque en el mapa?",
     "pregunta": "Com acceptes l'ajuda?",
     "opcions": [
       {
@@ -268,6 +280,7 @@
     "npc_nom": "Laia",
     "npc_emoji": "👩‍🦰",
     "dialog": "Aquí el tens. Bona passejada!",
+    "dialog_es": "Aquí lo tienes. ¡Buen paseo!",
     "pregunta": "Com agraeixes?",
     "opcions": [
       {
@@ -289,6 +302,7 @@
     "npc_nom": "Marc",
     "npc_emoji": "🧑",
     "dialog": "Vols que et faci una foto davant de l'església?",
+    "dialog_es": "¿Quieres que te haga una foto delante de la iglesia?",
     "pregunta": "Com acceptes?",
     "opcions": [
       {
@@ -310,6 +324,7 @@
     "npc_nom": "Marc",
     "npc_emoji": "🧑",
     "dialog": "Gaudeix de la visita!",
+    "dialog_es": "¡Disfruta de la visita!",
     "pregunta": "Com respons?",
     "opcions": [
       {
@@ -331,6 +346,7 @@
     "npc_nom": "Roger",
     "npc_emoji": "👨‍🍳",
     "dialog": "Hola! Voleu seure a la terrassa o dins?",
+    "dialog_es": "¡Hola! ¿Queréis sentaros en la terraza o dentro?",
     "pregunta": "Com demanes una taula fora?",
     "opcions": [
       {
@@ -352,6 +368,7 @@
     "npc_nom": "Roger",
     "npc_emoji": "👨‍🍳",
     "dialog": "Què us poso per beure?",
+    "dialog_es": "¿Qué os pongo para beber?",
     "pregunta": "Com demanes un vermut?",
     "opcions": [
       {
@@ -373,6 +390,7 @@
     "npc_nom": "Roger",
     "npc_emoji": "👨‍🍳",
     "dialog": "Són 4€. Voleu res més?",
+    "dialog_es": "Son 4€. ¿Queréis algo más?",
     "pregunta": "Com dius que no vols res més?",
     "opcions": [
       {
@@ -394,6 +412,7 @@
     "npc_nom": "Aina",
     "npc_emoji": "👩‍🍳",
     "dialog": "Voleu unes patates braves?",
+    "dialog_es": "¿Queréis unas patatas bravas?",
     "pregunta": "Com demanes que sí?",
     "opcions": [
       {
@@ -415,6 +434,7 @@
     "npc_nom": "Aina",
     "npc_emoji": "👩‍🍳",
     "dialog": "Fins la propera! Que vagi bé!",
+    "dialog_es": "¡Hasta la próxima! ¡Que vaya bien!",
     "pregunta": "Com respons?",
     "opcions": [
       {
@@ -436,6 +456,7 @@
     "npc_nom": "Elisabet",
     "npc_emoji": "👩‍💼",
     "dialog": "Mira aquests imants de Barcelona!",
+    "dialog_es": "¡Mira estos imanes de Barcelona!",
     "pregunta": "Com dius que t'interessa un imant del Barça?",
     "opcions": [
       {
@@ -457,6 +478,7 @@
     "npc_nom": "Elisabet",
     "npc_emoji": "👩‍💼",
     "dialog": "Aquest val 5€. Et fa preu si en compres 2",
+    "dialog_es": "Este vale 5€. Te hago precio si compras 2",
     "pregunta": "Com demanes el preu per dos?",
     "opcions": [
       {
@@ -478,6 +500,7 @@
     "npc_nom": "Elisabet",
     "npc_emoji": "👩‍💼",
     "dialog": "Gràcies per passar! Fins aviat!",
+    "dialog_es": "¡Gracias por pasar! ¡Hasta pronto!",
     "pregunta": "Com respons?",
     "opcions": [
       {
@@ -493,6 +516,7 @@
     "npc_nom": "Elisabet",
     "npc_emoji": "👩‍💼",
     "dialog": "Vols bossa per l'imant?",
+    "dialog_es": "¿Quieres bolsa para el imán?",
     "pregunta": "Com respons?",
     "opcions": [
       {
@@ -514,6 +538,7 @@
     "npc_nom": "Marta",
     "npc_emoji": "👩‍🏫",
     "dialog": "Hola, busques algun llibre en concret?",
+    "dialog_es": "Hola, ¿buscas algún libro en concreto?",
     "pregunta": "Com demanes un llibre de Mercè Rodoreda?",
     "opcions": [
       {
@@ -535,6 +560,7 @@
     "npc_nom": "Marta",
     "npc_emoji": "👩‍🏫",
     "dialog": "Vols fer-te el carnet de la biblioteca?",
+    "dialog_es": "¿Quieres hacerte el carnet de la biblioteca?",
     "pregunta": "Com demanes informació?",
     "opcions": [
       {
@@ -556,6 +582,7 @@
     "npc_nom": "Marta",
     "npc_emoji": "👩‍🏫",
     "dialog": "Obrim de 10 a 20h de dilluns a divendres",
+    "dialog_es": "Abrimos de 10 a 20h de lunes a viernes",
     "pregunta": "Com agraeixes la informació?",
     "opcions": [
       {
@@ -577,6 +604,7 @@
     "npc_nom": "Avi Toni",
     "npc_emoji": "👴",
     "dialog": "Que bon dia que fa avui, oi?",
+    "dialog_es": "¡Qué buen día hace hoy, eh?",
     "pregunta": "Com respons per seguir la conversa?",
     "opcions": [
       {
@@ -598,6 +626,7 @@
     "npc_nom": "Avi Toni",
     "npc_emoji": "👴",
     "dialog": "Vens sovint pel Born?",
+    "dialog_es": "¿Vienes a menudo por el Born?",
     "pregunta": "Com respons per mantenir la conversa?",
     "opcions": [
       {
@@ -619,6 +648,7 @@
     "npc_nom": "Avi Toni",
     "npc_emoji": "👴",
     "dialog": "Has provat el gelat d'aquí al costat?",
+    "dialog_es": "¿Has probado el helado de aquí al lado?",
     "pregunta": "Com respons per seguir parlant?",
     "opcions": [
       {
@@ -640,6 +670,7 @@
     "npc_nom": "Clara",
     "npc_emoji": "👩",
     "dialog": "Doncs fins aviat! Ha estat un plaer xerrar amb tu.",
+    "dialog_es": "Pues hasta pronto! Ha sido un placer charlar contigo.",
     "pregunta": "Com t'acomiades en català?",
     "opcions": [
       {
@@ -661,6 +692,7 @@
     "npc_nom": "Clara",
     "npc_emoji": "👩",
     "dialog": "Que vagi bé el dia!",
+    "dialog_es": "¡Que vaya bien el día!",
     "pregunta": "Com respons per tancar bé?",
     "opcions": [
       {
@@ -682,6 +714,7 @@
     "npc_nom": "Clara",
     "npc_emoji": "👩",
     "dialog": "Vinga, cuida't!",
+    "dialog_es": "Venga, ¡cuídate!",
     "pregunta": "Com tanques la conversa?",
     "opcions": [
       {
@@ -699,5 +732,3 @@
     ]
   }
 ]
-
-
