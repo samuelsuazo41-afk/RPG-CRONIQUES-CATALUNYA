@@ -4,6 +4,7 @@
     "npc_nom": "DJ Rayo",
     "npc_emoji": "🕶️",
     "dialog": "DJ RAYO et bloque el pas amb ulleres de sol a les 3 AM: 'Aquí només entra qui parla català millor que jo pinxo. Demostra-m'ho o marxa'.",
+    "dialog_es": "DJ RAYO te bloquea el paso con gafas de sol a las 3 AM: 'Aquí solo entra quien habla catalán mejor que yo pincho. Demuéstramelo o vete'.",
     "pregunta": "Com dius 'Let's dance' per trencar el gel?",
     "opcions": [
       {
@@ -31,6 +32,7 @@
     "npc_nom": "Luna",
     "npc_emoji": "🍸",
     "dialog": "LUNA, la bartender, et serveix aigua amb gel: 'Aquí no beus si no demanes bé. Així de simple. Què vols?'",
+    "dialog_es": "LUNA, la bartender, te sirve agua con hielo: 'Aquí no bebes si no pides bien. Así de simple. ¿Qué quieres?'",
     "pregunta": "Com demanes una cervesa en català?",
     "opcions": [
       {
@@ -58,6 +60,7 @@
     "npc_nom": "Colla Rave",
     "npc_emoji": "🕺",
     "dialog": "La colla et fa un cercle: 'Canta amb nosaltres o fora!'. Posan una frase en català mal dita: 'Jo estimo tu'.",
+    "dialog_es": "La colla te hace un círculo: '¡Canta con nosotros o fuera!'. Ponen una frase en catalán mal dicha: 'Jo estimo tu'.",
     "pregunta": "Com ho dius bé?",
     "opcions": [
       {
@@ -85,6 +88,7 @@
     "npc_nom": "Àvia Montse",
     "npc_emoji": "👵",
     "dialog": "ÀVIA MONTSE balla millor que tu: 'Nen, jo vaig amagar llibres en català sota Franco. Respectes això?'",
+    "dialog_es": "ÀVIA MONTSE baila mejor que tú: 'Niño, yo escondí libros en catalán bajo Franco. ¿Respetas esto?'",
     "pregunta": "Com li dius 'Gracias por todo' amb respecte?",
     "opcions": [
       {
@@ -112,6 +116,7 @@
     "npc_nom": "Mikel",
     "npc_emoji": "🛡️",
     "dialog": "MIKEL, porter de 2 metres: 'Lema de la rave o no entres. Sense excuses. Dóna-m'ho amb força'.",
+    "dialog_es": "MIKEL, portero de 2 metros: 'Lema de la rave o no entras. Sin excusas. Dámelo con fuerza'.",
     "pregunta": "Com dius 'No t'aturis mai'?",
     "opcions": [
       {
@@ -139,6 +144,7 @@
     "npc_nom": "Nora",
     "npc_emoji": "🎧",
     "dialog": "NORA, tècnica de so: 'El bass està mort. Si dius en català què falla, te'l pujo. Sinó, no hi ha festa'.",
+    "dialog_es": "NORA, técnica de sonido: 'El bass está muerto. Si dices en catalán qué falla, te lo subo. Si no, no hay fiesta'.",
     "pregunta": "Com dius 'El baix no sona'?",
     "opcions": [
       {
@@ -166,6 +172,7 @@
     "npc_nom": "DJ Rayo",
     "npc_emoji": "🕶️",
     "dialog": "DJ RAYO torna suat: 'Última prova abans de la clau. Si l'encertes, et dono el premi. Si falles, tornes a la porta'.",
+    "dialog_es": "DJ RAYO vuelve sudado: 'Última prueba antes de la clave. Si la aciertas, te doy el premio. Si fallas, vuelves a la puerta'.",
     "pregunta": "Com dius 'Let's keep the party going'?",
     "opcions": [
       {
@@ -194,6 +201,7 @@
     "npc_nom": "Iker",
     "npc_emoji": "🌊",
     "dialog": "IKER, pescador retirat: 'Jo venia aquí quan això era port de veritat. Explique'm el Port en català, noi'.",
+    "dialog_es": "IKER, pescador retirado: 'Yo venía aquí cuando esto era puerto de verdad. Explícame el Port en catalán, chico'.",
     "pregunta": "Com descrius el lloc?",
     "opcions": [
       {
@@ -221,6 +229,7 @@
     "npc_nom": "Sílvia",
     "npc_emoji": "🌮",
     "dialog": "SÍLVIA, cuinera: 'Només serveixo si demanes el plat en català. Quin vols?'",
+    "dialog_es": "SÍLVIA, cocinera: 'Solo sirvo si pides el plato en catalán. ¿Cuál quieres?'",
     "pregunta": "Com demanes un entrepà de truita?",
     "opcions": [
       {
@@ -248,6 +257,7 @@
     "npc_nom": "Kilo",
     "npc_emoji": "🎨",
     "dialog": "KILO, artista urbà: 'Aquest mur parla català. Si li dediques una frase, et deixo pintar un tag'.",
+    "dialog_es": "KILO, artista urbano: 'Este muro habla catalán. Si le dedicas una frase, te dejo pintar un tag'.",
     "pregunta": "Què li dius al mur?",
     "opcions": [
       {
@@ -275,6 +285,7 @@
     "npc_nom": "Carla",
     "npc_emoji": "💧",
     "dialog": "CARLA, voluntària de Creu Roja: 'Hidratat o cau. Com dius 'Bebo agua' en català?'",
+    "dialog_es": "CARLA, voluntaria de Creu Roja: 'Hidratate o caes. ¿Cómo dices 'Bebo agua' en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       {
@@ -302,6 +313,7 @@
     "npc_nom": "Pol",
     "npc_emoji": "🎤",
     "dialog": "POL, MC de la nit: 'Puja i rapeja una barra en català o et baixo. No hi ha mig camí'.",
+    "dialog_es": "POL, MC de la noche: 'Sube y rapea una barra en catalán o te bajo. No hay medio camino'.",
     "pregunta": "Què li rapeges?",
     "opcions": [
       {
@@ -329,6 +341,7 @@
     "npc_nom": "Aina",
     "npc_emoji": "📸",
     "dialog": "AINA, fotògrafa: 'Vull una foto que demostri que parles català. Digue'm una frase per posar al cartell'.",
+    "dialog_es": "AINA, fotógrafa: 'Quiero una foto que demuestre que hablas catalán. Dime una frase para poner en el cartel'.",
     "pregunta": "Què escrius al cartell?",
     "opcions": [
       {
@@ -356,6 +369,7 @@
     "npc_nom": "Guàrdia",
     "npc_emoji": "🚔",
     "dialog": "GUÀRDIA: 'Últim control. Si dius adéu en català com toca, et deixem marxar amb la clau. Sinó, et quedes'.",
+    "dialog_es": "GUÀRDIA: 'Último control. Si dices adéu en catalán como toca, te dejamos marchar con la clave. Si no, te quedas'.",
     "pregunta": "Com dius 'See you later'?",
     "opcions": [
       {
@@ -383,6 +397,7 @@
     "npc_nom": "Tota la Colla",
     "npc_emoji": "🌅",
     "dialog": "Surten els primers raigs. RAYO, LUNA, MIKEL, ÀVIA MONTSE i tota la colla t'envolten: 'Has aguantat tota la nit parlant català. Això té premi. Ets un dels nostres'.",
+    "dialog_es": "Salen los primeros rayos. RAYO, LUNA, MIKEL, ÀVIA MONTSE y toda la colla te rodean: 'Has aguantado toda la noche hablando catalán. Esto tiene premio. Eres uno de los nuestros'.",
     "pregunta": "Com tanques la nit?",
     "opcions": [
       {
@@ -406,6 +421,4 @@
       }
     ]
   }
-    ]
-
-
+]
