@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v100'; // sube versión para borrar caché vieja
+const CACHE_VERSION = 'v110'; // sube versión para borrar caché vieja
 const CACHE_NAME = `rpg-croniques-catalunya-${CACHE_VERSION}`;
 
 const urlsToCache = [
