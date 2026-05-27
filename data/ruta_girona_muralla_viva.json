@@ -4,6 +4,7 @@
     "npc_nom": "Àlex",
     "npc_emoji": "🔦",
     "dialog": "ÀLEX, guia nocturn: 'Això és Girona de veritat. Muralla del segle IX. Si vols pujar, guanya-t'ho. Com dius Vull veure la ciutat amb ganes?'",
+    "dialog_es": "ÀLEX, guía nocturno: 'Esto es Girona de verdad. Muralla del siglo IX. Si quieres subir, gánatelo. ¿Cómo dices Quiero ver la ciudad con ganas?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Vull veure la ciutat des de dalt!", "correcte": true, "feedback": "ÀLEX: 'Així sí. Girona és teva'.", "guany": { "monedes": 60, "arrel": 4 } },
@@ -16,6 +17,7 @@
     "npc_nom": "Marta",
     "npc_emoji": "🎨",
     "dialog": "MARTA, pintora: 'Aquesta és la postal. Cases de colors, riu, Catedral al fons. Com descrius el paisatge?'",
+    "dialog_es": "MARTA, pintora: 'Esta es la postal. Casas de colores, río, Catedral al fondo. ¿Cómo describes el paisaje?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Les cases de colors sobre el riu són molt maques", "correcte": true, "feedback": "MARTA: 'Perfecte! Seu i pinta amb mi'.", "guany": { "monedes": 70, "obert": 4 } },
@@ -28,6 +30,7 @@
     "npc_nom": "David",
     "npc_emoji": "📚",
     "dialog": "DAVID, historiador: 'Aquests carrers tenen 800 anys. El Call era un dels barris jueus més importants d'Europa. Què vol dir Call?'",
+    "dialog_es": "DAVID, historiador: 'Estas calles tienen 800 años. El Call era uno de los barrios judíos más importantes de Europa. ¿Qué significa Call?'",
     "pregunta": "Què respones?",
     "opcions": [
       { "text": "Call vol dir carrer estret del barri jueu", "correcte": true, "feedback": "DAVID: 'Exacte. Història viva'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -40,6 +43,7 @@
     "npc_nom": "Carme",
     "npc_emoji": "🏛️",
     "dialog": "CARME, vigilant: 'Molta gent diu Banys Àrabs, però són romànics del segle XII. Si ho dius bé, entres gratis'.",
+    "dialog_es": "CARME, vigilante: 'Mucha gente dice Banys Àrabs, pero son románicos del siglo XII. Si lo dices bien, entras gratis'.",
     "pregunta": "Com ho dius correcte?",
     "opcions": [
       { "text": "Aquests són els Banys Romànics, oi?", "correcte": true, "feedback": "CARME: 'Bravo! Així es parla amb coneixement'.", "guany": { "monedes": 70, "seny": 4 } },
@@ -52,6 +56,7 @@
     "npc_nom": "Gerard",
     "npc_emoji": "🎸",
     "dialog": "GERARD, estudiant: 'Aquesta escala va sortir a Juego de Tronos. Però el millor és com sona el català aquí. Prova una frase amb actitud'.",
+    "dialog_es": "GERARD, estudiante: 'Esta escalera salió en Juego de Tronos. Pero lo mejor es cómo suena el catalán aquí. Prueba una frase con actitud'.",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Puja l'escala i no miris enrere!", "correcte": true, "feedback": "GERARD: 'Uaaa! Toco una cançó per tu'.", "guany": { "monedes": 90, "rauxa": 5 } },
@@ -64,6 +69,7 @@
     "npc_nom": "Laia",
     "npc_emoji": "🏘️",
     "dialog": "LAIA, veïna: 'Visc aquí des de petita. Aquesta pujada és dura, però val la pena. Com dius que t'ha costat però val la pena?'",
+    "dialog_es": "LAIA, vecina: 'Vivo aquí desde pequeña. Esta subida es dura, pero vale la pena. ¿Cómo dices que te ha costado pero vale la pena?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Ha costat, però val la pena pujar aquí", "correcte": true, "feedback": "LAIA: 'Girona es guanya pujant'.", "guany": { "monedes": 80, "seny": 5 } },
@@ -76,6 +82,7 @@
     "npc_nom": "Sommelier",
     "npc_emoji": "🍷",
     "dialog": "SOMMELIER: 'Girona té el millor vi del món. DO Empordà. Com demanes una copa de vi negre?'",
+    "dialog_es": "SOMMELIER: 'Girona tiene el mejor vino del mundo. DO Empordà. ¿Cómo pides una copa de vino tinto?'",
     "pregunta": "Què li demanes?",
     "opcions": [
       { "text": "Una copa de vi negre de l'Empordà, si us plau", "correcte": true, "feedback": "SOMMELIER: 'Bon gust. Salut!'.", "guany": { "monedes": 70, "arrel": 4 } },
@@ -88,6 +95,7 @@
     "npc_nom": "Pagesa",
     "npc_emoji": "🥬",
     "dialog": "PAGESA: 'Aquest mercat porta 150 anys. Tot ve de l'horta de Girona. Com demanes mongetes del ganxet?'",
+    "dialog_es": "PAGESA: 'Este mercado lleva 150 años. Todo viene de la huerta de Girona. ¿Cómo pides mongetes del ganxet?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Em poses mig quilo de mongetes del ganxet, si us plau", "correcte": true, "feedback": "PAGESA: 'Bon producte. De l'horta de Girona'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -100,6 +108,7 @@
     "npc_nom": "Guia",
     "npc_emoji": "🗺️",
     "dialog": "GUIA: 'Girona té 2000 anys d'història. Romans, àrabs, jueus, cristians. Com dius benvingut en català?'",
+    "dialog_es": "GUÍA: 'Girona tiene 2000 años de historia. Romanos, árabes, judíos, cristianos. ¿Cómo dices bienvenido en catalán?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Benvingut a Girona", "correcte": true, "feedback": "GUIA: 'Així es rep als visitants'.", "guany": { "monedes": 70, "arrel": 4 } },
@@ -112,6 +121,7 @@
     "npc_nom": "Monjo",
     "npc_emoji": "⛪",
     "dialog": "MONJO: 'Aquest monestir romànic és del segle X. Museu d'Arqueologia ara. Com dius història en català?'",
+    "dialog_es": "MONJE: 'Este monasterio románico es del siglo X. Museo de Arqueología ahora. ¿Cómo dices historia en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Història", "correcte": true, "feedback": "MONJO: 'Exacte. Aquí hi ha 1000 anys d'història'.", "guany": { "monedes": 80, "seny": 5 } },
@@ -124,6 +134,7 @@
     "npc_nom": "Florista",
     "npc_emoji": "💐",
     "dialog": "FLORISTA: 'Al maig Girona es vesteix de flors. 200 espais decorats. Com dius gràcies per les flors?'",
+    "dialog_es": "FLORISTA: 'En mayo Girona se viste de flores. 200 espacios decorados. ¿Cómo dices gracias por las flores?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Gràcies per fer Girona tan bonica", "correcte": true, "feedback": "FLORISTA: 'Això ens motiva. Salut!'.", "guany": { "monedes": 100, "arrel": 6 } },
@@ -136,6 +147,7 @@
     "npc_nom": "Barista",
     "npc_emoji": "☕",
     "dialog": "BARISTA: 'Aquí va seure Dalí. Girona és terra de genis. Com demanes un cafè tallat?'",
+    "dialog_es": "BARISTA: 'Aquí se sentó Dalí. Girona es tierra de genios. ¿Cómo pides un café cortado?'",
     "pregunta": "Què li demanes?",
     "opcions": [
       { "text": "Un cafè tallat, si us plau", "correcte": true, "feedback": "BARISTA: 'Bon gust. Cremat just'.", "guany": { "monedes": 60, "arrel": 3 } },
@@ -148,6 +160,7 @@
     "npc_nom": "Guia Dalí",
     "npc_emoji": "🎭",
     "dialog": "GUIA DALÍ: 'Dalí va néixer a 40 min de Girona. El seu museu és surrealista. Com dius surrealista en català?'",
+    "dialog_es": "GUÍA DALÍ: 'Dalí nació a 40 min de Girona. Su museo es surrealista. ¿Cómo dices surrealista en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Surrealista", "correcte": true, "feedback": "GUIA DALÍ: 'Exacte! Girona és terra surrealista'.", "guany": { "monedes": 90, "obert": 5 } },
@@ -160,6 +173,7 @@
     "npc_nom": "Gironí",
     "npc_emoji": "⚽",
     "dialog": "GIRONÍ: 'Això és Montilivi. Girona FC a Primera. Com dius força Girona en català?'",
+    "dialog_es": "GIRONÍ: 'Esto es Montilivi. Girona FC en Primera. ¿Cómo dices força Girona en catalán?'",
     "pregunta": "Què li cantes?",
     "opcions": [
       { "text": "Força Girona! Amunt!", "correcte": true, "feedback": "GIRONÍ: 'Així sí! Amunt Girona'.", "guany": { "monedes": 100, "rauxa": 6 } },
@@ -172,6 +186,7 @@
     "npc_nom": "Pastor",
     "npc_emoji": "🐑",
     "dialog": "PASTOR: 'Aquest barri era rural fa 50 anys. Ara és natura a 10 min del centre. Com dius natura en català?'",
+    "dialog_es": "PASTOR: 'Este barrio era rural hace 50 años. Ahora es naturaleza a 10 min del centro. ¿Cómo dices natura en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Natura", "correcte": true, "feedback": "PASTOR: 'Exacte. Girona té natura i ciutat'.", "guany": { "monedes": 70, "arrel": 4 } },
@@ -184,6 +199,7 @@
     "npc_nom": "Bibliotecària",
     "npc_emoji": "📖",
     "dialog": "BIBLIOTECÀRIA: 'Aquesta biblioteca té 200 anys. Cultura catalana aquí dins. Com dius llibre en català?'",
+    "dialog_es": "BIBLIOTECARIA: 'Esta biblioteca tiene 200 años. Cultura catalana aquí dentro. ¿Cómo dices llibre en catalán?'",
     "pregunta": "Què li dius?",
     "opcions": [
       { "text": "Llibre", "correcte": true, "feedback": "BIBLIOTECÀRIA: 'Exacte. La cultura es fa llegint'.", "guany": { "monedes": 80, "seny": 5 } },
@@ -196,6 +212,7 @@
     "npc_nom": "Arqueòleg",
     "npc_emoji": "🏺",
     "dialog": "ARQUEÒLEG: 'Aquí hi ha muralla romana del segle I. Girona va ser Gerunda. Com dius antic en català?'",
+    "dialog_es": "ARQUEÓLOGO: 'Aquí hay muralla romana del siglo I. Girona fue Gerunda. ¿Cómo dices antic en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Antic", "correcte": true, "feedback": "ARQUEÒLEG: 'Exacte. 2000 anys d'història'.", "guany": { "monedes": 90, "arrel": 5 } },
@@ -208,6 +225,7 @@
     "npc_nom": "Historiadora",
     "npc_emoji": "📜",
     "dialog": "HISTORIADORA: 'Girona va resistir 25 setges. La més famosa el 1809 contra Napoleó. Com dius resistència en català?'",
+    "dialog_es": "HISTORIADORA: 'Girona resistió 25 asedios. El más famoso el 1809 contra Napoleón. ¿Cómo dices resistència en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Resistència", "correcte": true, "feedback": "HISTORIADORA: 'Exacte. Girona mai es rendeix'.", "guany": { "monedes": 100, "seny": 6 } },
@@ -220,6 +238,7 @@
     "npc_nom": "Veí",
     "npc_emoji": "🏛️",
     "dialog": "VEÍ: 'Aquesta plaça recorda la guerra del 1809. Neoclàssica, porticada. Com dius llibertat en català?'",
+    "dialog_es": "VEÍ: 'Esta plaza recuerda la guerra del 1809. Neoclásica, porticada. ¿Cómo dices llibertat en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Llibertat", "correcte": true, "feedback": "VEÍ: 'Exacte. Girona va lluitar per ella'.", "guany": { "monedes": 90, "seny": 5 } },
@@ -232,6 +251,7 @@
     "npc_nom": "Botànic",
     "npc_emoji": "🌳",
     "dialog": "BOTÀNIC: 'La Devesa té 4000 plàtans. És un dels parcs urbans més grans d'Europa. Com dius arbre en català?'",
+    "dialog_es": "BOTÁNICO: 'La Devesa tiene 4000 plátanos. Es uno de los parques urbanos más grandes de Europa. ¿Cómo dices arbre en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Arbre", "correcte": true, "feedback": "BOTÀNIC: 'Exacte. 4000 arbres aquí'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -244,6 +264,7 @@
     "npc_nom": "Estudiant",
     "npc_emoji": "🎓",
     "dialog": "ESTUDIANT: 'Ací hi ha la UdG. Universitat de Girona des del 1446. Com dius estudiant en català?'",
+    "dialog_es": "ESTUDIANTE: 'Aquí está la UdG. Universitat de Girona desde 1446. ¿Cómo dices estudiant en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Estudiant", "correcte": true, "feedback": "ESTUDIANT: 'Exacte. Girona és ciutat universitària'.", "guany": { "monedes": 70, "seny": 4 } },
@@ -256,6 +277,7 @@
     "npc_nom": "Muntanyenc",
     "npc_emoji": "⛰️",
     "dialog": "MUNTANYENC: 'Montjuïc vol dir Mont dels Jueus. Vista brutal de Girona. Com dius muntanya en català?'",
+    "dialog_es": "MONTANYENC: 'Montjuïc significa Mont dels Jueus. Vista brutal de Girona. ¿Cómo dices muntanya en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Muntanya", "correcte": true, "feedback": "MUNTANYENC: 'Exacte. Girona és entre muntanyes'.", "guany": { "monedes": 80, "arrel": 5 } },
@@ -268,6 +290,7 @@
     "npc_nom": "Pescador",
     "npc_emoji": "🎣",
     "dialog": "PESCADOR: 'Aquí pescàvem al Ter fa 50 anys. Ara és zona verda. Com dius riu en català?'",
+    "dialog_es": "PESCADOR: 'Aquí pescábamos en el Ter hace 50 años. Ahora es zona verde. ¿Cómo dices riu en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Riu", "correcte": true, "feedback": "PESCADOR: 'Exacte. El Ter i l'Onyar'.", "guany": { "monedes": 70, "arrel": 4 } },
@@ -280,6 +303,7 @@
     "npc_nom": "Obrera",
     "npc_emoji": "🏭",
     "dialog": "OBRERA: 'Aquest barri era industrial. Tèxtil i paper. Girona va ser obrera. Com dius treball en català?'",
+    "dialog_es": "OBRERA: 'Este barrio era industrial. Tèxtil y papel. Girona fue obrera. ¿Cómo dices treball en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Treball", "correcte": true, "feedback": "OBRERA: 'Exacte. Girona es va fer treballant'.", "guany": { "monedes": 80, "seny": 5 } },
@@ -292,6 +316,7 @@
     "npc_nom": "Actor",
     "npc_emoji": "🎭",
     "dialog": "ACTOR: 'Aquest barri té teatre. El Teatre Municipal és aquí. Com dius teatre en català?'",
+    "dialog_es": "ACTOR: 'Este barrio tiene teatro. El Teatre Municipal está aquí. ¿Cómo dices teatre en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Teatre", "correcte": true, "feedback": "ACTOR: 'Exacte. Girona viu el teatre'.", "guany": { "monedes": 70, "rauxa": 4 } },
@@ -304,6 +329,7 @@
     "npc_nom": "Esportista",
     "npc_emoji": "🏀",
     "dialog": "ESPORTISTA: 'Aquí hi ha el pavelló de bàsquet. Bàsquet Girona a Lliga ACB. Com dius bàsquet en català?'",
+    "dialog_es": "DEPORTISTA: 'Aquí está el pabellón de bàsquet. Bàsquet Girona en Lliga ACB. ¿Cómo dices bàsquet en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Bàsquet", "correcte": true, "feedback": "ESPORTISTA: 'Exacte! Força Bàsquet Girona'.", "guany": { "monedes": 90, "rauxa": 5 } },
@@ -316,6 +342,7 @@
     "npc_nom": "Músic Clàssic",
     "npc_emoji": "🎼",
     "dialog": "MÚSIC: 'Aquí hi ha l'Auditori de Girona. Música clàssica tot l'any. Com dius música en català?'",
+    "dialog_es": "MÚSICO: 'Aquí está el Auditori de Girona. Música clàssica todo el año. ¿Cómo dices música en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Música", "correcte": true, "feedback": "MÚSIC: 'Exacte. Girona sona bé'.", "guany": { "monedes": 80, "rauxa": 4 } },
@@ -328,11 +355,12 @@
     "npc_nom": "Agricultor",
     "npc_emoji": "🌾",
     "dialog": "AGRICULTOR: 'Ací es cultiva l'arròs del Delta. Girona menja de l'horta. Com dius arròs en català?'",
+    "dialog_es": "AGRICULTOR: 'Aquí se cultiva l'arròs del Delta. Girona come de la huerta. ¿Cómo dices arròs en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Arròs", "correcte": true, "feedback": "AGRICULTOR: 'Exacte. Arròs de Girona'.", "guany": { "monedes": 90, "arrel": 5 } },
       { "text": "Arroz", "correcte": false, "feedback": "AGRICULTOR: 'En català: arròs'.", "guany": { "monedes": 0 } },
-      { "text": "Cereal", "correcte": false, "feedback": "AGRICULTOR: 'Sí, però és arròs'.", "guany": { "monedes": 10 } }
+            { "text": "Cereal", "correcte": false, "feedback": "AGRICULTOR: 'Sí, però és arròs'.", "guany": { "monedes": 10 } }
     ]
   },
   {
@@ -340,6 +368,7 @@
     "npc_nom": "Industrial",
     "npc_emoji": "🏭",
     "dialog": "INDUSTRIAL: 'Sarrià de Ter era tèxtil. Girona va ser ciutat industrial. Com dius fàbrica en català?'",
+    "dialog_es": "INDUSTRIAL: 'Sarrià de Ter era tèxtil. Girona fue ciudad industrial. ¿Cómo dices fàbrica en catalán?'",
     "pregunta": "Què li contestes?",
     "opcions": [
       { "text": "Fàbrica", "correcte": true, "feedback": "INDUSTRIAL: 'Exacte. Girona va ser fàbrica'.", "guany": { "monedes": 80, "seny": 5 } },
@@ -352,6 +381,7 @@
     "npc_nom": "Tota la Colla Gironina",
     "npc_emoji": "🎉",
     "dialog": "ÀLEX, MARTA, DAVID, CARME, GERARD i tota la colla et miren des del camí de ronda: 'Has recorregut Girona parlant català. Has après de muralles, flors, jueus, romans, Dalí, Girona FC. Això és estimar Girona'.",
+    "dialog_es": "ÀLEX, MARTA, DAVID, CARME, GERARD y toda la colla te miran desde el camino de ronda: 'Has recorrido Girona hablando catalán. Has aprendido de murallas, flores, judíos, romanos, Dalí, Girona FC. Esto es amar Girona'.",
     "pregunta": "Com tanques la nit?",
     "opcions": [
       { "text": "Gràcies per mostrar-me Girona. Fins aviat, família", "correcte": true, "feedback": "TOTS: 'Això obre el Barri Vell de nit. No la perdis'.", "guany": { "monedes": 300, "arrel": 15, "seny": 12 }, "item": "clau_muralla_girona" },
@@ -359,6 +389,4 @@
       { "text": "Me'n vaig", "correcte": false, "feedback": "TOTS: 'Marxes així? Sense dir res més?'.", "guany": { "monedes": 30 } }
     ]
   }
-    ]
-
-
+]
