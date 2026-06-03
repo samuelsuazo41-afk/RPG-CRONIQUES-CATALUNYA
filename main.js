@@ -243,8 +243,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!jaVistaEnAquestaSessio) {
     sessionStorage.setItem('introVista', 'true');
     setTimeout(() => {
-      canviarTab('missio', null);
-    }, 0);
+      mostrarIntro();
+    }, 100);
   }
 
   aplicarIdioma();
@@ -258,21 +258,43 @@ document.addEventListener('DOMContentLoaded', async () => {
   carregarMapa();
 });
 
+function mostrarIntro() {
+  const introEl = document.getElementById('intro');
+  if (!introEl) {
+    canviarTab('missio', null);
+    return;
+  }
+  introEl.style.display = 'flex';
+  introEl.onclick = () => {
+    introEl.style.display = 'none';
+    canviarTab('missio', null);
+  };
+}
+
 function aplicarIdioma() {
-  document.getElementById('app-titol').textContent = LANG.app_titol;
-  document.getElementById('text-monedes').textContent = LANG.monedes;
-  document.getElementById('tab-mapa-txt').textContent = LANG.tab_mapa;
-  document.getElementById('tab-missio-txt').textContent = LANG.tab_missio;
-  document.getElementById('tab-gremi-txt').textContent = LANG.tab_gremi;
-  document.getElementById('tab-botiga-txt').textContent = LANG.tab_botiga;
-  document.getElementById('text-mon').textContent = LANG.text_mon;
-  document.getElementById('text-botiga').textContent = LANG.text_botiga;
+  const titol = document.getElementById('app-titol');
+  if (titol) titol.textContent = LANG.app_titol;
+  const monedes = document.getElementById('text-monedes');
+  if (monedes) monedes.textContent = LANG.monedes;
+  const tabMapa = document.getElementById('tab-mapa-txt');
+  if (tabMapa) tabMapa.textContent = LANG.tab_mapa;
+  const tabMissio = document.getElementById('tab-missio-txt');
+  if (tabMissio) tabMissio.textContent = LANG.tab_missio;
+  const tabGremi = document.getElementById('tab-gremi-txt');
+  if (tabGremi) tabGremi.textContent = LANG.tab_gremi;
+  const tabBotiga = document.getElementById('tab-botiga-txt');
+  if (tabBotiga) tabBotiga.textContent = LANG.tab_botiga;
+  const textMon = document.getElementById('text-mon');
+  if (textMon) textMon.textContent = LANG.text_mon;
+  const textBotiga = document.getElementById('text-botiga');
+  if (textBotiga) textBotiga.textContent = LANG.text_botiga;
 }
 
 function canviarTab(tab, e) {
   document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
-  document.getElementById('tab-'+tab).classList.add('active');
+  const tabEl = document.getElementById('tab-'+tab);
+  if (tabEl) tabEl.classList.add('active');
   if(e && e.target) e.target.closest('.nav-item').classList.add('active');
   if(tab === 'mapa') {pararMusica(); carregarMapa();}
   if(tab === 'missio') {pararMusica(); carregarMissioTab();}
@@ -390,7 +412,7 @@ async function carregarCapitol(nombreArchivo) {
     canviarTab('missio', null);
     setTimeout(() => carregarPas(), 0);
   } catch(e) {
-    mostrarModal('Error carregant capítol: ' + e.message);
+    mostrarModal('Error carregant capítol: ' + e.message + '. Crea el fitxer./data/' + nombreArchivo);
   }
 }
 
@@ -415,7 +437,6 @@ function carregarPas() {
     document.getElementById('npc-emoji').textContent = npcEmoji;
     document.getElementById('npc-nom').textContent = npcNom;
 
-    // Dialogo con 2 botones de altavoz: ca y es
     const textoCA = pas.dialog || '';
     const textoES = pas.dialog_es || pas.dialog;
     document.getElementById('npc-dialog').innerHTML = `
@@ -524,6 +545,7 @@ function completarCapitol() {
       </div>
     </div>
   `;
+  
   guardarEstat();
 }
 
@@ -534,10 +556,13 @@ function actualitzarTotem() {
   Object.keys(stats).forEach(k => {
     if(stats[k] > maxVal) {maxVal = stats[k]; maxStat = k;}
   });
-  estat.totem = maxVal >= 20? maxStat : 'neutral';
+  estat.totem = maxVal >= 20 ? maxStat : 'neutral';
   document.documentElement.setAttribute('data-totem', estat.totem);
   const emojis = { seny: '🦉', rauxa: '🔥', arrel: '🌳', obert: '🌍', neutral: '' };
-  document.getElementById('totem-display').textContent = estat.totem!== 'neutral'? `Tòtem: ${emojis[estat.totem]} ${estat.totem.toUpperCase()}` : '';
+  const totemDisplay = document.getElementById('totem-display');
+  if (totemDisplay) {
+    totemDisplay.textContent = estat.totem !== 'neutral' ? `Tòtem: ${emojis[estat.totem]} ${estat.totem.toUpperCase()}` : '';
+  }
 }
 
 function repetirCapitolActual() {
@@ -550,8 +575,12 @@ function tornarMapa() {
   estat.capitolActual = null;
   estat.pasActual = 0;
   estat.bloquejat = false;
-  document.getElementById('npc-box').style.display = 'none';
-  document.getElementById('missio-card').innerHTML = `<h3 id="missio-titol">Selecciona una missió al mapa</h3><div id="missio-escenari"></div><div id="missio-opcions"></div><div id="missio-feedback"></div>`;
+  const npcBox = document.getElementById('npc-box');
+  if (npcBox) npcBox.style.display = 'none';
+  const missioCard = document.getElementById('missio-card');
+  if (missioCard) {
+    missioCard.innerHTML = `<h3 id="missio-titol">Selecciona una missió al mapa</h3><div id="missio-escenari"></div><div id="missio-opcions"></div><div id="missio-feedback"></div>`;
+  }
   canviarTab('mapa', null);
 }
 window.tornarMapa = tornarMapa;
@@ -559,7 +588,7 @@ window.tornarMapa = tornarMapa;
 function carregarMissioTab() {
   const rutes = document.getElementById('rutes-secretes');
   if (rutes) {
-    rutes.style.display = estat.capitolActual? 'none' : 'block';
+    rutes.style.display = estat.capitolActual ? 'none' : 'block';
   }
 }
 
@@ -582,8 +611,10 @@ function guardarEstat() {
 }
 
 function actualitzarUI() {
-  document.getElementById('coins').innerHTML = `🪙 ${estat.monedes} <span id="text-monedes">${LANG.monedes}</span>`;
-  document.getElementById('stats').textContent = `Seny: ${estat.stats.seny} | Rauxa: ${estat.stats.rauxa} | Arrel: ${estat.stats.arrel} | Obert: ${estat.stats.obert}`;
+  const coins = document.getElementById('coins');
+  if (coins) coins.innerHTML = `🪙 ${estat.monedes} <span id="text-monedes">${LANG.monedes}</span>`;
+  const stats = document.getElementById('stats');
+  if (stats) stats.textContent = `Seny: ${estat.stats.seny} | Rauxa: ${estat.stats.rauxa} | Arrel: ${estat.stats.arrel} | Obert: ${estat.stats.obert}`;
 }
 
 function mostrarGremi(tab, e) {
@@ -591,13 +622,14 @@ function mostrarGremi(tab, e) {
   if(e) e.target.classList.add('active');
   const cont = document.getElementById('gremi-contenidor');
   const bibSubtabs = document.getElementById('biblioteca-subtabs');
+  if (!cont) return;
   cont.innerHTML = '';
   if (tab === 'biblioteca') {
-    bibSubtabs.style.display = 'flex';
+    if (bibSubtabs) bibSubtabs.style.display = 'flex';
     mostrarBibliotecaTab('diccionari');
     return;
   } else {
-    bibSubtabs.style.display = 'none';
+    if (bibSubtabs) bibSubtabs.style.display = 'none';
   }
   if(tab === 'personatges') {
     if(!estat.personatge) {
@@ -614,7 +646,7 @@ function mostrarGremi(tab, e) {
       const emojis = { seny: '🦉', rauxa: '🔥', arrel: '🌳', obert: '🌍', neutral: '😐' };
       const titols = { seny: 'Estratèg', rauxa: 'Impulsiu', arrel: 'Arrelat', obert: 'Cosmopolita', neutral: 'Novell' };
       const totalStats = estat.stats.seny + estat.stats.rauxa + estat.stats.arrel + estat.stats.obert;
-      const rang = totalStats < 20? 'Novell' : totalStats < 50? 'Viatjant' : totalStats < 100? 'Mestre' : 'Llegendari';
+      const rang = totalStats < 20 ? 'Novell' : totalStats < 50 ? 'Viatjant' : totalStats < 100 ? 'Mestre' : 'Llegendari';
       cont.innerHTML = `<div class="gremi-item" style="grid-column:1/-1; text-align:center;">
         <div style="font-size:64px;">${estat.personatge.emoji}</div>
         <h3 style="margin:10px 0;">${estat.personatge.nom}</h3>
@@ -649,7 +681,7 @@ function mostrarGremi(tab, e) {
       fetch('./data/llegendes_girona.json').then(r => r.json()).catch(()=>[]),
       fetch('./data/llegendes_valencia.json').then(r => r.json()).catch(()=>[])
     ])
-.then(([barcelona, girona, valencia]) => {
+  .then(([barcelona, girona, valencia]) => {
       const totes = [...barcelona,...girona,...valencia];
       cont.innerHTML = '';
       if(totes.length === 0) {
@@ -682,7 +714,7 @@ function mostrarGremi(tab, e) {
         }
       });
     })
-.catch(err => console.error('Error carregant llegendes:', err));
+  .catch(err => console.error('Error carregant llegendes:', err));
   }
 }
 
@@ -690,6 +722,7 @@ function mostrarBibliotecaTab(tab, e) {
   document.querySelectorAll('#biblioteca-subtabs.sub-tab-btn').forEach(btn => btn.classList.remove('active'));
   if(e) e.target.classList.add('active');
   const cont = document.getElementById('gremi-contenidor');
+  if (!cont) return;
 
   if(tab === 'diccionari') {
     const desbloquejats = new Set(estat.emojisDesbloquejats || []);
@@ -738,7 +771,6 @@ function mostrarBibliotecaTab(tab, e) {
   }
 }
 
-// LÓGICA MINIJUEGO
 function novaFraseMinijoc() {
   carregarFrasesMinijoc();
 }
@@ -747,27 +779,33 @@ function carregarFrasesMinijoc() {
   if (!FRASES_MINIJOC || FRASES_MINIJOC.length === 0) return;
   const emojisDisponibles = EMOJIS_JUGABLES;
   if (emojisDisponibles.length < 2) {
-    document.getElementById('minijoc-frase').textContent = "Error: no hi ha emojis per jugar.";
-    document.getElementById('minijoc-emojis').innerHTML = '';
+    const fraseEl = document.getElementById('minijoc-frase');
+    if (fraseEl) fraseEl.textContent = "Error: no hi ha emojis per jugar.";
+    const emojisEl = document.getElementById('minijoc-emojis');
+    if (emojisEl) emojisEl.innerHTML = '';
     return;
   }
   const plantilla = FRASES_MINIJOC[Math.floor(Math.random() * FRASES_MINIJOC.length)];
   const { text, solucio } = generarFraseDinamica(plantilla, emojisDisponibles.map(e => e.emoji));
   estat.minijoc.fraseObjectiu = { text, solucio };
   estat.minijoc.emojisTriats = [];
-  document.getElementById('minijoc-frase').textContent = text;
-  document.getElementById('minijoc-triats').textContent = '';
-  document.getElementById('minijoc-feedback').innerHTML = '';
-  document.getElementById('minijoc-nivell').textContent = `Nivell ${NIVELL_MINIJOC.nivelActual} - ${solucio.length} emojis`;
+  const fraseEl = document.getElementById('minijoc-frase');
+  if (fraseEl) fraseEl.textContent = text;
+  const triatsEl = document.getElementById('minijoc-triats');
+  if (triatsEl) triatsEl.textContent = '';
+  const feedbackEl = document.getElementById('minijoc-feedback');
+  if (feedbackEl) feedbackEl.innerHTML = '';
+  const nivellEl = document.getElementById('minijoc-nivell');
+  if (nivellEl) nivellEl.textContent = `Nivell ${NIVELL_MINIJOC.nivelActual} - ${solucio.length} emojis`;
   generarEmojisParaFraseCorta({solucio});
 }
 
 function generarEmojisParaFraseCorta(frase) {
   const emojisJugador = EMOJIS_JUGABLES.map(e => e.emoji);
   const emojisFalsos = emojisJugador
-.filter(e =>!frase.solucio.some(eSol => quitarSkinTone(e) === quitarSkinTone(eSol)))
-.sort(() => 0.5 - Math.random())
-.slice(0, 10 - frase.solucio.length);
+  .filter(e =>!frase.solucio.some(eSol => quitarSkinTone(e) === quitarSkinTone(eSol)))
+  .sort(() => 0.5 - Math.random())
+  .slice(0, 10 - frase.solucio.length);
   const emojisAMostrar = [...frase.solucio,...emojisFalsos].sort(() => 0.5 - Math.random());
   estat.minijoc.emojisDisponibles = emojisAMostrar;
   let html = '';
@@ -778,7 +816,8 @@ function generarEmojisParaFraseCorta(frase) {
       <div class="emoji-name">${emojiData?.nom_cat || ''}</div>
     </div>`;
   });
-  document.getElementById('minijoc-emojis').innerHTML = html;
+  const emojisEl = document.getElementById('minijoc-emojis');
+  if (emojisEl) emojisEl.innerHTML = html;
 }
 
 function obtenirArticle(emoji) {
@@ -793,9 +832,9 @@ function generarFraseDinamica(plantilla, emojisJugador) {
   let text = plantilla.text;
   let solucio = [];
   for (const cat of plantilla.categories) {
-    const emojisDisponibles = CATEGORIES_EMOJI[cat].filter(eBase =>
+    const emojisDisponibles = CATEGORIES_EMOJI[cat]?.filter(eBase =>
       emojisJugador.some(eJug => quitarSkinTone(eJug) === quitarSkinTone(eBase))
-    );
+    ) || [];
     if (!emojisDisponibles || emojisDisponibles.length === 0) {
       return generarFraseDinamica(FRASES_MINIJOC[Math.floor(Math.random() * FRASES_MINIJOC.length)], emojisJugador);
     }
@@ -818,7 +857,7 @@ function triarEmojiMinijoc(index) {
 
 function actualitzarTriatsMinijoc() {
   const div = document.getElementById('minijoc-triats');
-  div.textContent = estat.minijoc.emojisTriats.join(' ');
+  if (div) div.textContent = estat.minijoc.emojisTriats.join(' ');
 }
 
 function comprovarMinijoc() {
@@ -829,13 +868,13 @@ function comprovarMinijoc() {
   const esCorrecte = solucioCorrecta === triatsCorrecte;
   const feedback = document.getElementById('minijoc-feedback');
   if (esCorrecte) {
-    feedback.innerHTML = `<p style="color:#4CAF50; font-weight:bold;">${LANG.correcte}</p>`;
+    if (feedback) feedback.innerHTML = `<p style="color:#4CAF50; font-weight:bold;">${LANG.correcte}</p>`;
     estat.monedes += 5;
     estat.stats.arrel += 5;
     actualitzarUI();
     guardarEstat();
   } else {
-    feedback.innerHTML = `<p style="color:#f44336; font-weight:bold;">${LANG.incorrecte} ${frase.solucio.join(' ')}</p>`;
+    if (feedback) feedback.innerHTML = `<p style="color:#f44336; font-weight:bold;">${LANG.incorrecte} ${frase.solucio.join(' ')}</p>`;
   }
   setTimeout(() => novaFraseMinijoc(), 2000);
 }
@@ -861,6 +900,7 @@ function canviarPersonatge() {
 
 async function carregarBotiga() {
   const cont = document.getElementById('botiga-contenidor');
+  if (!cont) return;
   try {
     const res = await fetch('./data/botiga_emojis.json');
     const data = await res.json();
@@ -937,17 +977,13 @@ function renderitzarBotiga() {
   });
 }
 
-// Función parlantito con 2 idiomas
 function parlarNPC(texto, lang = 'ca') {
   if (!('speechSynthesis' in window)) {
     mostrarModal('El teu navegador no suporta veu');
     return;
   }
-
   speechSynthesis.cancel();
-
   const utterance = new SpeechSynthesisUtterance(texto);
-
   if (lang === 'es') {
     utterance.lang = 'es-ES';
     utterance.rate = 0.9;
@@ -964,7 +1000,6 @@ function parlarNPC(texto, lang = 'ca') {
     else if (veuNuria) utterance.voice = veuNuria;
     else if (veuCat) utterance.voice = veuCat;
   }
-
   speechSynthesis.speak(utterance);
 }
 
@@ -972,7 +1007,6 @@ if ('speechSynthesis' in window) {
   speechSynthesis.onvoiceschanged = () => {};
 }
 
-// Exponer funciones globales para los botones del modal
 window.repetirCapitolActual = repetirCapitolActual;
 window.tornarMapa = tornarMapa;
 
